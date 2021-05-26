@@ -1,11 +1,65 @@
 <script>
 </script>
 
-<body>
-	<head>
-		<Title>FL STUDIO FOR DUMMIES</Title>
-	</head>
-</body>
+<svelte:head>
+	<title>FL Studio for dummies</title>
+	<html lang="en" />
+</svelte:head>
+
+<body style="background-image: url(resources/Mosaic.jpg);" />
 
 <style>
+	body {
+		display: flex;
+	}
+	#table {
+		display: flex;
+		flex-direction: column;
+	}
+	#main {
+		width: 1550;
+	}
+	h1 {
+		font-family: francois_oneregular;
+		font-size: 40;
+		text-align: center;
+		text-shadow: 1px 2px #000000;
+		margin: 100 auto;
+		color: rgb(255, 240, 230);
+	}
+	h2 {
+		font-family: francois_oneregular;
+		text-shadow: 1px 2px #000000;
+		font-size: 40;
+		text-align: center;
+		margin: 0 auto;
+		color: rgb(255, 240, 230);
+	}
+	ul {
+		width: 250px;
+	}
+	p {
+		font-size: 30px;
+		font-family: cuprumregular;
+		width: 1000px;
+		text-align: left;
+		margin: 5 auto;
+	}
+	form {
+		margin-bottom: 0px;
+	}
+	@font-face {
+		font-family: "Cuprumregular";
+		src: url("Fonts/cuprumregular/cuprum-webfont.woff2") format("woff2"),
+			url("Fonts/cuprumregular/cuprum-webfont.woff") format("woff");
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: "francois_oneregular";
+		src: url("Fonts/francoisone/francoisone-webfont.woff2") format("woff2"),
+			url("Fonts/francoisone/francoisone-webfont.woff") format("woff");
+		font-weight: normal;
+		font-style: normal;
+	}
 </style>
